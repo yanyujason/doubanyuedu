@@ -9,7 +9,7 @@ class Advertisement extends Component {
   render() {
     return(
       <View>
-        <Image style={styles.image} resizeMode='cover' source={require('../../public/img/book_ads.png')} />
+        <Image style={styles.image} resizeMode='cover' source={require('../../../public/img/book_ads.png')} />
       </View>
     )
   }

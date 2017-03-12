@@ -43,11 +43,11 @@ const WeeklyNewCarousel = React.createClass({
     });
 
     const weeklyNewBooks = [
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-1', bookAuthor: 'book arthur - 1', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
-      {imageSrc: require('../../public/img/cover-2.jpg'), bookTitle: 'bookTitle-2', bookAuthor: 'book arthur - 2', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
-      {imageSrc: require('../../public/img/cover-3.jpg'), bookTitle: 'bookTitle-3', bookAuthor: 'book arthur - 3', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
-      {imageSrc: require('../../public/img/cover-4.jpg'), bookTitle: 'bookTitle-4', bookAuthor: 'book arthur - 4', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-5', bookAuthor: 'book arthur - 5', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-1', bookAuthor: 'book arthur - 1', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
+      {imageSrc: require('../../../public/img/cover-2.jpg'), bookTitle: 'bookTitle-2', bookAuthor: 'book arthur - 2', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
+      {imageSrc: require('../../../public/img/cover-3.jpg'), bookTitle: 'bookTitle-3', bookAuthor: 'book arthur - 3', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
+      {imageSrc: require('../../../public/img/cover-4.jpg'), bookTitle: 'bookTitle-4', bookAuthor: 'book arthur - 4', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-5', bookAuthor: 'book arthur - 5', bookDesc: 'This book is awesome. It is about a very sad story. A boy was falling love with a girl. Then they died at the same day.'},
     ];
 
     return (

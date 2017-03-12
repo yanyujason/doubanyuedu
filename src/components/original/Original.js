@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {ScrollView,StyleSheet} from 'react-native';
+import {ScrollView,StyleSheet,Text} from 'react-native';
 
 import SearchBox from './SearchBox';
 import WeeklyNew from './WeeklyNew';
@@ -26,10 +26,10 @@ class Original extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: '#abc',
+    paddingTop: 53
   }
 });
 
 export default Original;
-
-//<SearchBox />

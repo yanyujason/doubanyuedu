@@ -16,19 +16,19 @@ class FreeWorks extends Component {
         <Text style={styles.title}>免费作品</Text>
         <View style={styles.listBooks}>
           <View style={styles.listBook}>
-            <ListBook coverSrc={require('../../public/img/cover-1.jpg')}
+            <ListBook coverSrc={require('../../../public/img/cover-1.jpg')}
                       title="title-1"
                       author="author-1"
             />
           </View>
           <View style={styles.listBook}>
-            <ListBook coverSrc={require('../../public/img/cover-2.jpg')}
+            <ListBook coverSrc={require('../../../public/img/cover-2.jpg')}
                       title="title-2"
                       author="author-2"
             />
           </View>
           <View style={styles.listBook}>
-            <ListBook coverSrc={require('../../public/img/cover-3.jpg')}
+            <ListBook coverSrc={require('../../../public/img/cover-3.jpg')}
                       title="title-3"
                       author="author-3"
             />
@@ -37,7 +37,6 @@ class FreeWorks extends Component {
         <View style={styles.showMore}>
           <Text style={styles.showMoreText}>查看更多</Text>
         </View>
-
       </View>
     )
   }
@@ -48,7 +47,8 @@ const styles = StyleSheet.create({
     height: 260,
     backgroundColor: 'white',
     marginTop: 10,
-    padding: 5
+    padding: 5,
+    marginBottom: 50
   },
   listBooks: {
     flex: 1,

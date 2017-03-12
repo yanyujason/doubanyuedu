@@ -39,15 +39,15 @@ const BookCarousel = React.createClass({
     });
 
     const carouselBooks = [
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-1', bookAuthor: 'book arthur - 1'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-2', bookAuthor: 'book arthur - 2'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-3', bookAuthor: 'book arthur - 3'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-4', bookAuthor: 'book arthur - 4'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-5', bookAuthor: 'book arthur - 5'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-6', bookAuthor: 'book arthur - 6'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-7', bookAuthor: 'book arthur - 7'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-8', bookAuthor: 'book arthur - 8'},
-      {imageSrc: require('../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-9', bookAuthor: 'book arthur - 9'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-1', bookAuthor: 'book arthur - 1'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-2', bookAuthor: 'book arthur - 2'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-3', bookAuthor: 'book arthur - 3'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-4', bookAuthor: 'book arthur - 4'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-5', bookAuthor: 'book arthur - 5'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-6', bookAuthor: 'book arthur - 6'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-7', bookAuthor: 'book arthur - 7'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-8', bookAuthor: 'book arthur - 8'},
+      {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-9', bookAuthor: 'book arthur - 9'},
     ];
 
     const numberOfPages = Math.ceil(carouselBooks.length / 3);
