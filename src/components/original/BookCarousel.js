@@ -38,6 +38,8 @@ const BookCarousel = React.createClass({
       }
     });
 
+    //const {carouselBooks} = this.props;
+
     const carouselBooks = [
       {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-1', bookAuthor: 'book arthur - 1'},
       {imageSrc: require('../../../public/img/cover-1.jpg'), bookTitle: 'bookTitle-2', bookAuthor: 'book arthur - 2'},

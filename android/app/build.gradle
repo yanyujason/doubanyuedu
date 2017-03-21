@@ -83,8 +83,8 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "com.doubanyuedu"
@@ -104,10 +104,19 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+signingConfigs {
+        release {
+            storeFile file("/Users/yyan/thoughtworks/tech/DouBanYueDu/android/app/my-release-key.keystore")
+            storePassword MYAPP_RELEASE_STORE_PASSWORD
+            keyAlias MYAPP_RELEASE_KEY_ALIAS
+            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+        }
+    }
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
